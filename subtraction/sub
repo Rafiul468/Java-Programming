@@ -1,0 +1,20 @@
+import java.util.Scanner;
+public class Main{
+    static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        int num1,num2, sub;
+
+        System.out.println("enter first number: ");
+        num1= sc.nextInt();
+
+        System.out.println("Enter second number: ");
+        num2= sc.nextInt();
+
+        sub=num1-num2;
+
+        System.out.println("sub two numbers: "+sub);
+
+    }
+}

@@ -1,0 +1,9 @@
+public class Main{
+    static void main(String[]  args) {
+        int count=2;
+        while(count<=40){
+            System.out.println(count);
+            count+=2;
+        }
+    }
+}

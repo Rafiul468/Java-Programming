@@ -1,0 +1,13 @@
+//for loop ব্যবহার করে 1 থেকে 25 পর্যন্ত জোড় সংখ্যার যোগফল বের করো
+
+
+public class Main{
+    public static void main(String[] args){
+        int sum = 0;
+        for(int i = 2; i <= 25; i+=
+                2){
+            sum = sum +i;
+        }
+        System.out.println("sum of even numbers from 1 to 25: " + sum);
+    }
+}

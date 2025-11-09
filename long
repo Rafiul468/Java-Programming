@@ -1,0 +1,16 @@
+//Long
+
+public class Main{
+    static void main(String[] args) {
+
+        short population=170000000L; //bd people
+        short distance=384400000L; // Distance from earth to the moon
+
+        //NOTE: value of range short(-9,223,372,036,854,775,808to +9,223,372,036,854,775,807)
+
+
+        System.out.println("population: "+population);
+        System.out.println("distance: "+temperature+"meters");
+
+    }
+}

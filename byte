@@ -1,0 +1,15 @@
+//byte
+public class Main{
+    static void main(String[]args) {
+
+        byte age=127;    //initialize
+        byte temperature = -128; //negative value
+        
+
+       // NOTE: value of byte(-128 to +127)
+
+
+        System.out.println("Age: "+age);
+        System.out.println("Temperature: "+temperature);
+    }
+}

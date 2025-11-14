@@ -11,3 +11,4 @@ public class Main{
         System.out.println("sum of even numbers from 1 to 25: " + sum);
     }
 }
+

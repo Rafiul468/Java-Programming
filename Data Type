@@ -1,0 +1,47 @@
+package next_Double;
+
+import java.util.Scanner;
+public class Main{
+    static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.println(input.nextDouble());
+    }
+}
+
+package next_Int;
+
+import java.util.Scanner;
+public class Main{
+    static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.println(input.nextInt());
+    }
+}
+
+package Float;
+import java.util.Scanner;
+public class Main{
+    static void main(String [] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.println(input.nextFloat());
+
+    }
+}
+
+import java.util.Scanner;
+public class Main{
+    static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int f= input.nextInt();
+        System.out.println(f+10);
+    }
+}
+
+package Boolean;
+import java.util.Scanner;
+public class Main{
+    static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.println(input.nextBoolean());
+    }
+}

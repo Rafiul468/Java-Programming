@@ -1,0 +1,40 @@
+import java.util.Scanner;
+
+public class Main{
+    static void main(String[] args) {
+        System.out.println("Enter your favorite integer: ");
+        Scanner input = new Scanner(System.in);
+
+        int favorite_Number = input.nextInt();
+
+        System.out.println(favorite_Number+"is my favorite integer too!");
+    }
+}
+
+
+import java.util.Scanner;
+
+public class Main{
+    static void main(String[] args) {
+
+        Scanner input = new Scanner(System.in);
+        System.out.println("Enter your favorite integer: ");
+        int favorite_Number = input.nextInt();
+
+        System.out.println(favorite_Number+"is my favorite integer too!");
+    }
+}
+
+
+import java.util.Scanner;
+
+public class Main{
+    static void main(String[] args) {
+        System.out.println("Enter your favorite integer: ");
+        Scanner input = new Scanner(System.in);
+
+
+
+        System.out.println(input.nextInt()+"is my favorite integer too!");
+    }
+}

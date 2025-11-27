@@ -1,0 +1,29 @@
+1.
+import java.util.Scanner;
+public class Main{
+    static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        System.out.println("Enter your name and age: ");
+
+        String name = input.nextLine();
+        double age = input.nextDouble();
+
+        System.out.println(name+ " ! You are "+ age + " years old");
+    }
+}
+
+
+
+
+2.
+import java.util.Scanner;
+public class Main{
+    static void main(String[] args) {
+        System.out.println("Enter your name & age: ");
+
+        Scanner input = new Scanner(System.in);
+
+        System.out.println(input.nextLine()+ "! You are "+ input.nextDouble()+" years old! ");
+    }
+}

@@ -1,0 +1,74 @@
+1.Addition Operators
+
+public class Main{
+    static void main(String[] args) {
+        int x = 5;
+        int y = 6;
+       int z=x+y;
+        System.out.println("sum is: "+z);
+    }
+}
+
+public class Main{
+    static void main(String[] args) {
+        System.out.println("sum is: "+(6+5+4));
+    }
+}
+
+public class Main{
+    static void main(String[] args) {
+        System.out.println("sum is: "+ 6+5+4);    //error
+    }
+}
+
+2. Subtraction Operations
+
+public class Main{
+    static void main(String[] args) {
+        int x=14;
+        int y = 4;
+        int z = x-y;
+        System.out.println("Sub is: "+z);
+    }
+}
+
+public class Main{
+    static void main(String[] args) {
+        System.out.println("sub is: "+(25-10-2));
+    }
+}
+
+public class Main{
+    static void main(String[] args) {
+        System.out.println("sub is:"+ 25-10-2);       //error;
+    }
+}
+
+3.Multiplication Operator
+
+
+public class Main{
+    static void main(String[] args) {
+        int x=5;
+        int y = 2;
+        int z = x*y;
+        System.out.println("mull is: "+z);
+    }
+}
+
+public class Main{
+    static void main(String[] args) {
+        System.out.println("Mull is: "+(4*3));
+    }
+}
+
+4.Division Opertator
+
+public class Main{
+    static void main(String[] args) {
+        int x = 8;
+        int y = 2;
+        int z = x/y;
+        System.out.println("Division is: "+z);
+    }
+}

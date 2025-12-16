@@ -1,0 +1,75 @@
+#Pre-Increment
+1. public class Main{
+    static void main(String[] args) {
+        int i = 4;
+        ++i;
+        System.out.println(i);
+    }
+}
+
+2. public class Main{
+    static void main(String[] args) {
+        int i = 1;
+        int j=++i;
+        System.out.println("i is "+ i + ", j is "+j);
+    }
+}
+
+
+
+#post-Increment
+
+1. public class Main{
+    static void main(String[] args) {
+        int i = 4;
+        i++;
+        System.out.println(i);
+    }
+}
+
+2. public class Main{
+    static void main(String[] args) {
+        int i = 1;
+        int j=i++;
+        System.out.println("i is "+ i + ", j is "+j);
+    }
+}
+
+-------------------------------------------------------------
+
+#Pre-Decrement
+public class Main{
+    static void main(String[] args) {
+        int i = 4;
+        i++;
+        System.out.println(i);
+    }
+}
+
+
+public class Main{
+    static void main(String[] args) {
+        int i = 1;
+        int j=i++;
+        System.out.println("i is "+ i + ", j is "+j);
+    }
+}
+
+#Post-Decrement
+1. public class Main{
+    static void main(String[] args) {
+        int i = 4;
+        --i;
+        System.out.println(i);
+    }
+}
+
+
+
+2. public class Main{
+    static void main(String[] args) {
+        int i = 1;
+        int j=i--;
+        System.out.println("i is "+ i + ", j is "+j);
+    }
+}
